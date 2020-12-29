@@ -1,0 +1,39 @@
+.about {
+    display: flex;
+    border-bottom: .01px groove;
+    padding: 2em 0;
+}
+.about .profile-image {
+    width: 25%;
+    margin: 0 1em 0 0;
+}
+.about .profile-image img {
+    width: 100%;
+}
+.about .user-info {
+    width: 70%;
+    font-size: 1.3em;
+    word-wrap: break-word;
+}
+.about .user-info div {
+    margin: 0 0 1.5em 0;
+}
+.about .user-info .button {
+    display: flex;
+}
+.about .user-info .button .follow-btn button,
+.about .user-info .button .edit-btn button,
+.profile-editor > form > button,
+.add-image-container > .add-image > form > button {
+    padding: 1em 1.5em;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 0.5em;
+    border-radius: 5px;
+}
+.about .user-info .button .follow-btn button:hover, 
+.about .user-info .button .edit-btn button:hover,
+.profile-editor > form > button:hover {
+    background-color:rgb(185, 185, 185);
+}

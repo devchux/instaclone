@@ -1,0 +1,49 @@
+@media screen and (min-width: 768px) {
+    .about .profile-image {
+        width: 20%;
+        margin: 0 1.5em 0 0;
+    }
+    .about .user-info {
+        width: 75%;
+    }
+    .gallery-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (min-width: 769px) {
+    nav .search, nav .nav-content {
+        display: block;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 1.5em 10em;
+    }
+    footer {
+        display: none;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .about .profile-image {
+        width: 15%;
+        margin: 0 1.5em 0 0;
+    }
+    .about .user-info {
+        width: 80%;
+    }
+    .gallery-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (min-width: 1280px) {
+    .about .profile-image {
+        width: 30%;
+        margin: 0;
+    }
+    .about .user-info {
+        width: 75%;
+    }
+    .about .profile-image img {
+        width: 60%;
+    }
+}
