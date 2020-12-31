@@ -4,7 +4,7 @@ const About = async () => {
     return `
         <section class="about">
             <div class="profile-image">
-                <img src="../src/assets/images/user-info.png" alt="User Pix">
+                <img src="src/assets/images/user-info.png" alt="User Pix">
             </div>
             <div class="user-info">
                 <div class="username">
