@@ -1,7 +1,7 @@
 import { getEntryFromDB } from '../../database.js'
 async function Gallery() {
     const data = await getEntryFromDB('gallery')
-    const galleryList = !data.length ? '<p style="text-align:center;">Loading...</p>' : data.map(item => {
+    const galleryList = data.length === 0 ? '<p style="text-align:center;">Loading...</p>' : data.map(item => {
         return `
         <div class="image-container">
             <img src=${item.file} alt="" >

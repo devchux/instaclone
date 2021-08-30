@@ -9,6 +9,7 @@
     --tertiary-color: #ffffff;
 }
 body {
+    font-family: 'Lato', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
     background-color: rgb(250, 250, 250);
 }
 .overlay-body {
@@ -16,7 +17,7 @@ body {
 }
 nav {
     text-align: center;
-    padding: 1.5em 10em;
+    padding: 1.5em 0em;
     background-color: var(--primary-color);
     color: var(--tertiary-color);
 }

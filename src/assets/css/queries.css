@@ -24,6 +24,9 @@
     }
 }
 @media screen and (min-width: 1024px) {
+    nav {
+        padding: 1.5em 10em;
+    }
     .about .profile-image {
         width: 15%;
         margin: 0 1.5em 0 0;

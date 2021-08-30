@@ -4,10 +4,11 @@
     gap: 1.5em;
     width: 100%;
     margin: 3em 0;
+    margin-bottom: 4em;
 }
 .gallery-container .image-container {
     position: relative;
-    height: 500px;
+    height: 300px;
     cursor: pointer;
 }
 .gallery-container .image-container .img-desc {
@@ -29,6 +30,7 @@
 .gallery-container .image-container img {
     width: 100%;
     height: 100%;
+    border-radius: 5px;
 }
 #add-image-button {
     position: fixed;
